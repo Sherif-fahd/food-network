@@ -1,0 +1,142 @@
+
+
+
+
+html ,body{
+    height: 100%;
+    width: 100%;
+
+}
+.custom-nav{
+    background-color: #17495d;
+
+}
+
+
+
+/* start header*/
+
+
+#home{
+background: url(../imgs/20.jpg) no-repeat center center fixed;
+display: table;
+ height: 100%;
+position: relative;
+width: 100%;
+background-size: cover;
+}
+
+#home  .start-log{
+   
+    padding : 60px;
+}
+
+#home h1{
+    color: gold;
+    font-weight: 300;
+    margin-top: 100px;
+    font-family: sans-serif;
+}
+
+
+#home button{
+    padding: 10px;
+    background-color:gold;
+    border: 1px solid white;
+    color: black;
+    width: 150px
+}
+#home button:hover{
+    background-color:transparent;
+    border: 1px solid gold;
+    color: white;
+}
+#home form{
+    background-color: black;
+    background-color: rgba(0, 0, 0, .9);
+    box-shadow: -5px -5px 8px rgb(112, 109, 109);
+    max-width: 350px;
+    padding: 30px;
+    margin-top: 100px;
+}
+#home form h1{
+    color:silver;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-shadow: gold;
+    
+}
+#home form .form-control {
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    height: 70px;;
+    background-color: transparent;
+    color: gold
+}
+#home form .form-control::placeholder{
+    color:gold;
+    
+}
+#home form .btn{
+    padding: 10px;
+    background-color:gold;
+    border: 1px solid white;
+    color: black;
+    width: 100%;
+    border-color:gold;
+    margin-top:0px
+}
+#home form .btn:hover{
+    
+    background-color:transparent;
+    border: 1px solid white;
+    color: white;
+}
+/*end header */
+
+
+
+
+
+
+
+
+.section-four{
+    padding: 100px 0 ;
+}
+.section-four h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+.section-four hr{
+    width:100px;
+    height: 2px;
+    background-color: #ffa620;
+}
+.section-four h6{
+    font-size: 12px;
+    color: #c5c5c1;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.section-four span{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.section-four p{
+    font-size: 11px;
+    color: #96a2a7;
+    margin-top: 15px;
+}
+.section-four .fas{
+    padding: 15px;
+    background-color: transparent;
+    color: #ffa620;
+    border: 2px solid #17495d;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
