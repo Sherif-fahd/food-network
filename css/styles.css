@@ -1,7 +1,84 @@
-.custom-nav {
-  background-color: darkslateblue;
-  color: white; }
-  .custom-nav span {
+.navbar {
+  background-color: #680E4B; }
+  .navbar .navbar-brand {
+    color: #eee3e3;
+    font-family: 'Dokdo', cursive;
+    font-size: 22px; }
+    .navbar .navbar-brand span {
+      font-family: 'Dokdo', cursive;
+      font-weight: bold;
+      color: #ebdcdc;
+      font-size: 25px; }
+    .navbar .navbar-brand span:hover {
+      color: gold;
+      font-size: 27px; }
+  .navbar .navbar-toggler {
+    background-color: gold; }
+  .navbar .nav-item {
+    color: #f3e9e9; }
+  .navbar .navbar-nav .nav-link {
+    color: #e0d8d8;
+    font-size: 15px; }
+    .navbar .navbar-nav .nav-link span {
+      margin: 5px; }
+  .navbar .navbar-nav .nav-link:hover {
     color: gold; }
-  .custom-nav a {
-    color: silver; }
+  .navbar .navbar-light .navbar-nav .active > .nav-link {
+    color: gold; }
+
+.recipes {
+  color: antiquewhite; }
+  .recipes a {
+    color: gold; }
+  .recipes .heder-recipes h1, .recipes h4 {
+    color: #f0e0e0;
+    font-family: 'Dokdo', cursive;
+    margin-top: 20px;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300; }
+  .recipes .recpiesfilter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: aliceblue; }
+    .recipes .recpiesfilter .nav-item {
+      font-family: "Dokdo", cursive;
+      margin: 10px; }
+      .recipes .recpiesfilter .nav-item .nav-link {
+        color: aliceblue; }
+      .recipes .recpiesfilter .nav-item .nav-link:hover {
+        color: gold; }
+
+#myform {
+  margin-top: 20px; }
+  #myform form {
+    margin: 10px; }
+  #myform .signup {
+    width: 300px;
+    margin: auto;
+    margin-top: 30px; }
+
+.slider-recpies {
+  padding-bottom: 100px; }
+  .slider-recpies .slide-imgs {
+    width: 250px;
+    height: 200px;
+    margin: 5px; }
+    .slider-recpies .slide-imgs img {
+      width: 100%;
+      height: 100%; }
+    .slider-recpies .slide-imgs :hover {
+      -webkit-box-shadow: -5px -5px 8px #cabbbb;
+      box-shadow: -5px -5px 8px #cabbbb;
+      width: 253px;
+      height: 203px; }
+  .slider-recpies .carousel-control-next-icon {
+    background-color: black; }
+  .slider-recpies .carousel-control-prev-icon {
+    background-color: black; }

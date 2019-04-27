@@ -5,52 +5,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Dokdo" rel="stylesheet">
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
     <title>Document</title>
 </head>
 
 <body>
-     <!--Start OF  Navbar-->
-     <nav class="custom-nav fixed-top">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed collapsed-custom-nav" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="glyphicon glyphicon-chevron-down"></span>
-          </button>
-          <a class="navbar-brand title" href="#!">FOod <span>NetwOrK</span></a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <div class="container">
-            <ul class="nav navbar-nav">
-            <li><a href="#"">RECIPES</a></li>
-            <li><a href="#">LEARN</a></li>
-            <li><a href="#">VIDEOS</a></li>
-            <li><a href="#">RESTURANTS</a></li>
-            <li><a href="#">SHOP</a></li>
-          </ul>
-          </div>
-        </div>
-        <!-- /.navbar-collapse -->
-      </div>
-      <!-- /.container-fluid -->
-    </nav>
-        <!--End OF Navbar-->
+     <!--ON Navbar-->
+    <nav class="navbar  fixed-top navbar-expand-lg navbar-light ">
+        <div class="container">
+    
+            <a class="navbar-brand" href="#"><span>food  network </span>
+                </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link fas fa-home" href="index.html"><SPAN>Home</SPAN></a> 
+                    </li>
+                    <li class="nav-item">
+                        
+                        <a class="nav-link fas fa-utensils" href="#recpies"><SPAN>RECIPES</SPAN></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fas fa-video" href="#"><span>VIDEOS</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fas fa-shopping-cart" href="#"><span>SHOP</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fas fa-book" href="#"><span>BOOK</span></a>
+                    </li>
+    
+                </ul>
+                <a href="#myform">
+                    <button type="button" class="btn btn-primary">register</button>
+                </a>
+                <button class="btn btn">Uplode</button>
 
-    <!--startheader-->
+            </div>
+    
+        </div>
+    </nav>
+        <!--OFF Navbar-->
+
+
+        
+
+    <!--ON header-->
     <div id="home">
         <div class="start-log">
                 <div class="container ">
                         <div class="row">
                             <div class="col">
-                                <h1>SHARE YOUR RECIPES</h1>
+                               
                                 
-                    
-                                <button class="btn btn">Uplode</button>
+                               
                             </div>
                             <div class="col text-center ">
                                 <form class="ml-auto">
@@ -67,48 +85,356 @@
           
         </div>
     </div>
-    <!--end header-->
+    <!--OFF header-->
 
-    <!--start recipes-->
-    <div class="section-four">
+
+
+
+
+
+
+    
+    <div class="section-four" id="xxx">
             <div class="container text-center">
-                <h1>Why this is awesome</h1>
+                <h1>More to explore</h1>
                 <hr/>
-                <h6>Lorem ipsum dolor sit lorem ipsum dolor sit</h6>
-                <div class="row">
-                    <div class="col">
-                        <i class="fas fa-cloud-upload-alt fa-2x rounded-circle"></i>
-                        <h5>Thoughtful Design</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus cum aliquid  laboriosam dolorum aut, veniam commodi aspernatur!</p>
-                    </div>
-                    <div class="col">
-                        <i class="fas fa-cloud-upload-alt fa-2x rounded-circle"></i>
-                        <h5>Well Crafted</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus cum aliquid  laboriosam dolorum aut, veniam commodi aspernatur!</p>
-                    </div>
-                    <div class="col">
-                        <i class="fas fa-cloud-upload-alt fa-2x rounded-circle"></i>
-                        <h5>Easy to Customize</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus cum aliquid  laboriosam dolorum aut, veniam commodi aspernatur!</p>
-                    </div>
+                <h6>TOP FEATURES & VIDEOS</h6>
+                   <!-- ON slider-->
+    <div class="container slider-recpies">
+            <div class="row">
+                <div class="col">
+                    <div class="container text-center my-3">
+                        <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                            <div class="carousel-inner w-100" role="listbox">
+                                <div class="carousel-item row no-gutters active">
+                                    <div class="col-3 float-left slide-imgs"><a href=""><img class="img-fluid" src="imgs/20.jpg"></a></div>
+                                    <div class="col-3 float-left slide-imgs"><a href=""><img class="img-fluid" src="imgs/4.jpg"></a></div>
+                                    <div class="col-3 float-left slide-imgs"><a href=""><img class="img-fluid" src="imgs/21.jpg"></a></div>
+                                    <div class="col-3 float-left slide-imgs"><a href=""><img class="img-fluid" src="imgs/23.jpg"></a></div>
+                                </div>
+                                <div class="carousel-item row no-gutters">
+                                    <div class="col-3 float-left slide-imgs"><a href=""><img class="img-fluid" src="imgs/2.jpg"></a></div>
+                                    <div class="col-3 float-left slide-imgs"><a href=""><img class="img-fluid" src="imgs/0.jpg"></a></div>
+                                    <div class="col-3 float-left slide-imgs"><a href=""><img class="img-fluid" src="imgs/00.jpg"></a></div>
+                                    <div class="col-3 float-left slide-imgs"><a href=""><img class="img-fluid" src="imgs/000.jpg"></a></div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
                 </div>
             </div>
         </div>
+
+    <!-- OFF slider-->
+            </div>
+        </div>
     
-    <!--end recipes-->
-
-
-    <!-- end nav-recpies-->
-    <div class="container">
+ <!-- recipes -->
+    <div class="container-fluid recipes-bk">
+    <div class=" recipes container" id="recpies">
+        <div class="row">
+            <div class="col-12">
+                <div class="heder-recipes text-center">
+                    <h1>recipes</h1>
+                    <h4>get cook & sharing</h4>
+    
+                </div>
+    
+                <div class="col-12">
+                    <div class="recpiesfilter">
+                         <ul class="nav justify-content-center">
+                                <li class="nav-item">
+                                  <a class="nav-link " href="#">BEEF</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">SALAD</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">CAKE</a>
+                                </li>
+                                
+                              </ul>
+                    </div>
+    
+    
+    
+                </div>
+    
+    
+    
+            </div>
+    
+        </div>
         <div class="row">
             <div class="col">
-
+                    <div class="card mb-3" style="max-width: 540px; background-color: transparent;">
+                            <div class="row no-gutters">
+                              <div class="col-md-4">
+                                <img src="imgs/manuka-honey-cheesecake-hub-10-valentines-dishes-make-in-minutes.jpg" class="card-img" alt="manuka">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">manuka</h5>
+                                  <p class="card-text">manuka honey cheesecake hub 10 valentines dishes make in minutes.</p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+    
             </div>
-
+            <div class="col">
+                    <div class="card mb-3" style="max-width: 540px; background-color: transparent;">
+                            <div class="row no-gutters">
+                              <div class="col-md-4">
+                                <img src="imgs/Shakshuka.jpg" class="card-img" alt="Shakshuka">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Shakshuka</h5>
+                                  <p class="card-text">is a term commonly used for an egg dish that is make by sauteing onions, tomato and eggs. In this recipe we're going to give ...</p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+    
+            </div>
+           
+           
         </div>
-
-
+        <div class="row">
+                <div class="col">
+                        <div class="card mb-3" style="max-width: 540px; background-color: transparent;">
+                                <div class="row no-gutters">
+                                  <div class="col-md-4">
+                                    <img src="imgs/shrimp and rice.jpg" class="card-img" alt="shrimp and rice">
+                                  </div>
+                                  <div class="col-md-8">
+                                    <div class="card-body">
+                                      <h5 class="card-title">shrimp and rice</h5>
+                                      <p class="card-text">One of the most popular posts on my site the past year has been my Easy Better-Than-Takeout Chicken Fried Rice recipe.</p>
+                                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+        
+                </div>
+                <div class="col">
+                        <div class="card mb-3" style="max-width: 540px; background-color: transparent;">
+                                <div class="row no-gutters">
+                                  <div class="col-md-4">
+                                    <img src="imgs/korean steak bowl with spicy sesame dressing.jpg" class="card-img" alt="steak">
+                                  </div>
+                                  <div class="col-md-8">
+                                    <div class="card-body">
+                                      <h5 class="card-title">korean steak</h5>
+                                      <p class="card-text">korean steak bowl with spicy sesame dressing.</p>
+                                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+        
+                </div>
+               
+               
+            </div>
+      
+        
+    
     </div>
+</div>
+<!-- recipes -->
+
+
+
+
+
+
+    <div class="container-fluid form-bk ">
+        <div class="container " id="myform">
+            <div class="row">
+                <div class="col">
+                        <form>
+                                <div class="form-row">
+                                  <div class="col-md-4 mb-3">
+                                    <label for="validationServer01">First name</label>
+                                    <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="Mark" required>
+                                    <div class="valid-feedback">
+                                      Looks good!
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4 mb-3">
+                                    <label for="validationServer02">Last name</label>
+                                    <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="Otto" required>
+                                    <div class="valid-feedback">
+                                      Looks good!
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4 mb-3">
+                                    <label for="validationServerUsername">Username</label>
+                                    <div class="input-group">
+                                      <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                                      </div>
+                                      <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Username" aria-describedby="inputGroupPrepend3" required>
+                                      <div class="invalid-feedback">
+                                        Please choose a username.
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="form-row">
+                                  <div class="col-md-6 mb-3">
+                                    <label for="validationServer03">City</label>
+                                    <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="City" required>
+                                    <div class="invalid-feedback">
+                                      Please provide a valid city.
+                                    </div>
+                                  </div>
+                                  <div class="col-md-3 mb-3">
+                                    <label for="validationServer04">State</label>
+                                    <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="State" required>
+                                    <div class="invalid-feedback">
+                                      Please provide a valid state.
+                                    </div>
+                                  </div>
+                                  <div class="col-md-3 mb-3">
+                                    <label for="validationServer05">Zip</label>
+                                    <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="Zip" required>
+                                    <div class="invalid-feedback">
+                                      Please provide a valid zip.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="form-check">
+                                    <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+                                    <label class="form-check-label" for="invalidCheck3">
+                                      Agree to terms and conditions
+                                    </label>
+                                    <div class="invalid-feedback">
+                                      You must agree before submitting.
+                                    </div>
+                                  </div>
+                                </div>
+                                <button class="btn btn-primary" type="submit">Submit form</button>
+                              </form>
+
+                </div>
+                <div class="col">
+                    <div class="signup">
+                         <button type="button" class="btn btn-primary btn-lg btn-block">SIGNUP WITH FACEBOOK</button>
+                        <button type="button" class="btn btn-secondary btn-lg btn-block">SIGNUP WITH TWITTER</button>
+                    </div>
+                       
+                </div>
+            </div>
+                
+        </div>
+    </div>
+
+
+   <!-- ON videos-->
+<!-- <div class="container-fluid videos-bk">
+        <div class="container " id="videos">
+            <div class="row">
+                <div class="col-12">
+                        <div class="head-of-videos text-center">
+                                <h1>Videos </h1>
+                                
+                
+                            </div>
+                </div>
+               
+            </div>
+            <div class="row">
+                <div class="col">
+                        <div class="container h-100 search ">
+                                <div class="d-flex justify-content-center h-100">
+                                  <div class="searchbar">
+                                    <input class="search_input" type="text" name="" placeholder="Search...">
+                                    <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                </div>
+            </div>
+            
+    
+        </div>
+    </div> -->
+    <!--OFF videos-->
+
+    <!-- Footer -->
+    
+	<section id="footer">
+            <div class="container">
+                <div class="row text-center text-xs-center text-sm-left text-md-left">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <h5>MY RECIPE </h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="javascript:void();"><i class="fab fa-html5"></i>HTML5</a></li>
+                            <li><a href="javascript:void();"><i class="fab fa-css3"></i>CSS3</a></li>
+                            <li><a href="javascript:void();"><i class="fab fa-bootstrap"></i>Bootstrap</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <h5>CONTACT ME</h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="javascript:void();"><i class="fab fa-github-square"></i>Github</a></li>
+                            <li><a href="javascript:void();"><i class="fab fa-linkedin"></i>linkedin</a></li>
+                            <li><a href="javascript:void();"><i class="fab fa-facebook-square"></i>FACEBOOK</a></li>
+                            <li><a href="# title="Design and developed by"><i class="fas fa-user-circle"></i>Sherif Fahd</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <h5>Quick links</h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="javascript:void();"><i class="fas fa-home"></i>Home</a></li>
+                            <li><a href="javascript:void();"><i class="fas fa-utensils"></i>Recipes</a></li>
+                            <li><a href="javascript:void();"><i class="fas fa-video"></i>Videos</a></li>
+                            <li><a href="javascript:void();"><i class="fas fa-shopping-cart"></i>SHOP</a></li>
+                            <li><a href="javascript:void();"><i class="fas fa-book"></i>Book</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                        <ul class="list-unstyled list-inline social text-center">
+                            <li class="list-inline-item"><a href="javascript:void();"><i class="fab fa-facebook-square"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void();"><i class="fab fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void();"><i class="fab fa-youtube-square"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void();"><i class="fab fa-twitter-square"></i></a></li>
+                            
+                        </ul>
+                    </div>
+                    </hr>
+                </div>	
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                        
+                        <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="#" target="_blank">Sherif Fahd</a></p>
+                    </div>
+                    </hr>
+                </div>	
+            </div>
+        </section>
+        
+     
+       
+              
             
          
                   
@@ -121,7 +447,7 @@
     <script src="js/jquery.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/myJS.js"></script>
 </body>
 
 </html>
