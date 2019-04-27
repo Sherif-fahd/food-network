@@ -1,29 +1,53 @@
 .navbar {
-  background-color: #680E4B; }
+  background-color: transparent; }
   .navbar .navbar-brand {
-    color: #eee3e3;
+    color: #680E4B;
     font-family: 'Dokdo', cursive;
     font-size: 22px; }
     .navbar .navbar-brand span {
       font-family: 'Dokdo', cursive;
       font-weight: bold;
-      color: #ebdcdc;
-      font-size: 25px; }
+      color: #2b0c5a;
+      font-size: 30px; }
     .navbar .navbar-brand span:hover {
-      color: gold;
-      font-size: 27px; }
+      color: gold; }
   .navbar .navbar-toggler {
-    background-color: gold; }
+    background-color: black; }
   .navbar .nav-item {
     color: #f3e9e9; }
   .navbar .navbar-nav .nav-link {
-    color: #e0d8d8;
-    font-size: 15px; }
+    color: #e8e5ee;
+    font-size: 18px; }
     .navbar .navbar-nav .nav-link span {
       margin: 5px; }
   .navbar .navbar-nav .nav-link:hover {
     color: gold; }
   .navbar .navbar-light .navbar-nav .active > .nav-link {
+    color: gold; }
+
+.navbar-scolled {
+  background-color: #2d014b; }
+  .navbar-scolled .navbar-brand {
+    color: #680E4B;
+    font-family: 'Dokdo', cursive;
+    font-size: 22px; }
+    .navbar-scolled .navbar-brand span {
+      font-family: 'Dokdo', cursive;
+      font-weight: bold;
+      color: #ebe7f0;
+      font-size: 30px; }
+    .navbar-scolled .navbar-brand span:hover {
+      color: gold; }
+  .navbar-scolled .navbar-toggler {
+    background-color: black; }
+  .navbar-scolled .nav-item {
+    color: #f3e9e9; }
+  .navbar-scolled .navbar-nav .nav-link {
+    color: #e8e5ee;
+    font-size: 18px; }
+    .navbar-scolled .navbar-nav .nav-link span {
+      margin: 5px; }
+  .navbar-scolled .navbar-nav .nav-link:hover {
     color: gold; }
 
 .recipes {
